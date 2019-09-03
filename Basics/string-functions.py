@@ -1,0 +1,15 @@
+s1 = 'welcome To Python'
+print(s1)
+print(s1.capitalize())
+print(s1.center(40,'*'))
+print(s1.count('o')) # count(str,start,end)
+print(s1.find('To')) # find(str,start,end)
+print(s1.lower())
+print(s1.upper())
+print(s1.swapcase())
+print(s1.title())
+print(s1.split())
+print(len(s1))
+print(s1[::-1])
+s2 = 'madam'
+print(s2==s2[::-1])
