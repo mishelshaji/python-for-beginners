@@ -7,7 +7,6 @@ top.geometry("240x150")
 top.title('Hello World')
 top.config(bg='white')
 
-
 def fun(x):
     flg = 0
     try:
@@ -24,7 +23,7 @@ def fun(x):
         else:
             c = a / b
         ans.set(c)
-    except (Exception) as e:
+    except Exception as e:
         showinfo('Error', e)
         if (flg == 0):
             e1.focus_set(); e1.select_to(END)

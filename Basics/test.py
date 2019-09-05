@@ -1,14 +1,7 @@
-class InvalidUsernameError(Exception):
-    code = '0x08693F'
-    def __init__(self, msg):
-        self.message = msg
-
-    def __str__(self):
-        return str(self.message).upper()
-
-try:
-    if 10 < 11:
-        raise InvalidUsernameError("A custom error")
-except InvalidUsernameError as e:
-    print(e)
-
+from tkinter import *
+top = Tk()
+top.geometry("200x200")
+spin = Spinbox(top, from_=0, to=25)
+spin.pack()
+print(spin.get())
+top.mainloop()
