@@ -3,8 +3,8 @@ File Modes
 
 r	-> read only.
 rb	-> read only binary mode.
-r+	-> read & write, pointer will be in begining of the file.
-rb+	-> read & write binary, pointer will be in begining of the file.
+r+	-> read & write, pointer will be in beginning of the file.
+rb+	-> read & write binary, pointer will be in beginning of the file.
 w	-> write only, overwrite or creates new file.
 wb	-> write only binary, overwrite or creates new file.
 w+	-> read & write, overwrite or creates new file.
